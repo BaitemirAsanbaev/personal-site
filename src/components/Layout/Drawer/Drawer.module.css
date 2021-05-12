@@ -1,0 +1,8 @@
+.close{
+  transform: translateX(-100px);
+  transition: transform .5s;
+}
+.open{
+  transform: translateX(0px);
+  transition: transform .5s;
+}

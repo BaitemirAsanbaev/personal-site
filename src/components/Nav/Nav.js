@@ -6,7 +6,7 @@ const Nav = () => {
     <ul>
       <NavItem url="/" exact>Home</NavItem>
       <NavItem url="/projects">Projects</NavItem>
-      <NavItem url="/bout">About</NavItem>
+      <NavItem url="/about">About</NavItem>
       <NavItem url="/contacts">Contacts</NavItem>
     </ul>
   </div> );

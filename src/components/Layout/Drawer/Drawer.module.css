@@ -1,8 +1,20 @@
 .close{
-  transform: translateX(-100px);
+  transform: translateX(-500px);
   transition: transform .5s;
 }
 .open{
   transform: translateX(0px);
   transition: transform .5s;
+}
+.content{
+  background-color: tomato;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+}
+
+@media(min-width: 500px){
+  .Drawer{
+    display: none;
+  }
 }

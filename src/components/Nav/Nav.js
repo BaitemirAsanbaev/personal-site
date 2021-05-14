@@ -1,13 +1,13 @@
 import classes from "./Nav.module.css";
 import NavItem from "./NavItem/NavItem";
 
-const Nav = () => {
+const Nav = ({click}) => {
   return ( <div className={classes.Nav}>
     <ul>
-      <NavItem url="/" exact>Home</NavItem>
-      <NavItem url="/projects">Projects</NavItem>
-      <NavItem url="/about">About</NavItem>
-      <NavItem url="/contacts">Contacts</NavItem>
+      <NavItem click={click} url="/" exact>Home</NavItem>
+      <NavItem click={click} url="/projects">Projects</NavItem>
+      <NavItem click={click} url="/about">About</NavItem>
+      <NavItem click={click} url="/contacts">Contacts</NavItem>
     </ul>
   </div> );
 }

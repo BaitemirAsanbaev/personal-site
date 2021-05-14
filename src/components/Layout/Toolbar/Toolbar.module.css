@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 5px 25px;
+  background-color: #52ebff;
 }
 
 @media(max-width: 500px){

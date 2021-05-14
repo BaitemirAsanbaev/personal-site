@@ -10,9 +10,10 @@
   background-color: tomato;
   height: 100%;
   position: absolute;
+  top: 0;
+  left: 0;
   z-index: 3;
 }
-
 @media(min-width: 500px){
   .Drawer{
     display: none;

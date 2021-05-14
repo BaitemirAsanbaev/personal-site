@@ -4,5 +4,12 @@
   padding: 0px;
   display: flex;
   justify-content: space-between;
-  min-width: 350px;
+  max-width: 350px;
+  min-width: 300px
+}
+
+@media (max-width: 500px) {
+  .Nav>ul{
+    flex-direction: column;
+  }
 }

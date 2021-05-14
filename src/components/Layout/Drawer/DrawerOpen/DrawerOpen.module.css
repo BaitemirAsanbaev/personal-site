@@ -1,6 +1,6 @@
 .DrawerOpen>div>div{
-  width: 100px;
-  height: 10px;
+  width: 50px;
+  height: 5px;
   background-color: rgb(0, 0, 0);
   margin: 10px 0px;
   cursor: pointer;

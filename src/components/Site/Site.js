@@ -10,7 +10,7 @@ const Site = () => {
     <h1>Site</h1>
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route exact path="/projects" component={Projects}/>
+        <Route path="/projects" component={Projects}/>
         <Route exact path="/about" component={About}/>
         <Route exact path="/contacts" component={Contacts}/>
       </Switch>

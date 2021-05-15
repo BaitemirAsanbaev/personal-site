@@ -12,21 +12,25 @@ const Projects = ({match}) => {
   const output = [];
   for (const project of projects) {
     let label = "";
+    let type = "";
     switch (project) {
       case "music-maker":
         label = "Music maker"
+        type = "ReactJS"
         break;
       case "personal-site":
         label = "Personal site"
+        type = "Design/Layout"
         break;
       case "kanye-western":
         label = "Kanye western"
+        type = "JavaScript"
         break;
     
       default:
         break;
     }
-    output.push(<ProjectItem url={project} label={label}/>)
+    output.push(<ProjectItem url={project} label={label} type={type}/>)
 }
 
   return ( <div className={classes.Projects}>

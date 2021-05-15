@@ -1,0 +1,31 @@
+.link{
+  color: #fff;
+  text-decoration: none;
+  flex: 1 1 33%;
+}
+.label{
+  background-color: #060016;
+  z-index: 1;
+  padding: 5px 10px;
+}
+.hov_label{
+  padding: 5px 0px;
+  position: relative;
+  top: 28.5px;
+  left: 0px;
+  width: 10px;
+  z-index: 2;
+  transition: width .5s;
+}
+.link>div:hover .hov_label{
+  width: 100%;
+}
+.hov_label>span{
+  opacity: 0%;
+}
+.link>div:hover .hov_label>span{
+  opacity: 100%;
+}
+.link>div:hover .label{
+  color: #060016;
+}

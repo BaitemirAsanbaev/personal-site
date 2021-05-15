@@ -6,10 +6,13 @@ const Project = ({match}) => {
 
     switch (match.params.id) {
       case "music-maker":
-        result.push("asdfgjkjk")
+        result.push(<h1>MM</h1>)
         break;
       case "personal-site":  
-        result.push("asdfg")
+        result.push(<h1>PS</h1>)
+        break;
+      case "kanye-western":  
+        result.push(<h1>KW</h1>)
         break;
       
       default:
@@ -17,7 +20,6 @@ const Project = ({match}) => {
     }
 
   return ( <div className={classes.Project}>
-    <span>{match.params.id}</span>
 
     {result}
   </div> );

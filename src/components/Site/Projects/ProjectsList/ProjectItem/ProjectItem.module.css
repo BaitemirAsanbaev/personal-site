@@ -1,20 +1,23 @@
 .link{
   color: #fff;
   text-decoration: none;
-  flex: 1 1 33%;
+  flex: 0 0 200px;
+  margin: 5px 20px;
 }
 .label{
   background-color: #060016;
   z-index: 1;
-  padding: 5px 10px;
+  padding: 15px 30px;
 }
 .hov_label{
-  padding: 5px 0px;
+  padding: 15px 0px;
   position: relative;
-  top: 28.5px;
+  top: 48.5px;
   left: 0px;
   width: 10px;
   z-index: 2;
+  display: flex;
+  justify-content: center;
   transition: width .5s;
 }
 .link>div:hover .hov_label{
@@ -22,9 +25,12 @@
 }
 .hov_label>span{
   opacity: 0%;
+  transition: opacity .5s, color .5s;
 }
 .link>div:hover .hov_label>span{
   opacity: 100%;
+  color: #060016;
+  font-weight: bold;
 }
 .link>div:hover .label{
   color: #060016;

@@ -1,0 +1,28 @@
+.Home{
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0px 30px;
+}
+.home_about{
+  background-color: #060016;
+  color: #fff;
+  padding: 30px 40px;
+  margin-top: 40px;
+  transition: color .5s;
+}
+.home_about:hover{
+  color: rgb(143, 256, 199);
+}
+.home_about .info{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.home_about h1{
+  margin: 0px 0px 15px 0px;
+}
+.home_about p{
+  margin: 0px;
+  line-height: 1.5;
+  font-size: 18px;
+}

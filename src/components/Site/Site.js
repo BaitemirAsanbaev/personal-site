@@ -7,7 +7,6 @@ import classes from "./Site.module.css";
 
 const Site = () => {
   return ( <div className={classes.Site}>
-    <h1>Site</h1>
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/projects" component={Projects}/>

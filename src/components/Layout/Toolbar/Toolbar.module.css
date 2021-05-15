@@ -1,13 +1,19 @@
 .Toolbar{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 5px 25px;
-  background-color: #52ebff;
+  background-color: #060016;
+}
+.Toolbar nav{
+  padding: 10px 0px;
 }
 
-@media(max-width: 500px){
+@media(max-width: 750px){
   nav{
     display: none;
+  }
+  .Toolbar{
+    justify-content: flex-end;
   }
 }

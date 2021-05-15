@@ -1,4 +1,17 @@
-li>a{
-  color: #000;
+.NavItem{
+  padding: 0px 20px;
+}
+.li>a:hover{
+  color: rgb(143, 255, 199);
+}
+.li>a{
+  color: #fff;
   text-decoration: none;
+  font-size: 26px;
+  transition: color .5s;
+}
+@media (max-width:750px) {
+  .NavItem{
+    margin: 25px 0px;
+  }
 }

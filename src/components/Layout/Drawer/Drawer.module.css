@@ -7,14 +7,14 @@
   transition: transform .5s;
 }
 .content{
-  background-color: tomato;
+  background-color: #060016;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 3;
 }
-@media(min-width: 500px){
+@media(min-width: 750px){
   .Drawer{
     display: none;
   }

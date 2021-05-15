@@ -1,12 +1,16 @@
 .DrawerOpen>div>div{
   width: 50px;
   height: 5px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   margin: 10px 0px;
   cursor: pointer;
+  transition: background-color .5s;
+}
+.DrawerOpen:hover>div>div{
+  background-color: rgb(143, 255, 199);
 }
 
-@media (min-width: 500px) {
+@media (min-width: 750px) {
   .DrawerOpen{
     display: none;
   }

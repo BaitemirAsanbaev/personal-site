@@ -33,7 +33,7 @@ const Projects = ({match}) => {
     <h1>Projects</h1>
       { match.isExact
       ? <ProjectsList output = {output}/>
-      : <Route path='/projects/:id' label={label} component={Project}/>}
+      : <Route path='/projects/:id' component={Project}/>}
   </div> );
 }
  

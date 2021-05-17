@@ -1,13 +1,62 @@
-.Project>div{
+.Project>div, .Project>div>a{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.links{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.links li a{
+  color: #fff;
+  text-decoration: none;
+  transition: color .5s;
+}
+.links li a:hover{
+  color: #fff!important;
+}
+.info p, .info h1{
+  max-width: 1000px;
+  margin: 30px auto;
+  line-height: 1.6;
+  transition: color .5s;
+}
+.info{
+  margin-bottom: 100px;
+}
+.info p:hover, .info h1:hover{
+  color: #fff;
+}
 .Project{
   background-color: #060016;
   color: #fff;
+  padding: 20px 50px;
+  transition: color .5s;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.Project:hover, .Project:hover .links li a{
+  color: rgb(143, 256, 199);
 }
 .screenshot{
-  width: 80%;
+  width: 60%;
+  transition: box-shadow .5s;
+  z-index: 1;
+}
+.img:hover .screenshot{
   box-shadow: 0 0 30px rgb(143, 256, 199);
+  filter: brightness(50%);
+}
+.img span{
+  position: relative;
+  top: -150px;
+  z-index: 6;
+  opacity: 0;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.img:hover span{
+  opacity: 1;
 }

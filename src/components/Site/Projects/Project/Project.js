@@ -15,6 +15,7 @@ const Project = ({match}) => {
           <li><a href='https://baitemir-asanbaev.netlify.app/' rel="noreferrer" target='_blank'>Netlify link</a></li>
         </ul>)
         screenshot.push(<img alt="s" className={classes.screenshot} src={mus_img}/>)
+        
         break;
       case "personal-site":  
         project_name = "Personal site"

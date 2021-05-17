@@ -24,11 +24,11 @@
   width: 100%;
 }
 .hov_label>span{
-  opacity: 0%;
+  opacity: 0;
   transition: opacity .5s, color .5s;
 }
 .link>div:hover .hov_label>span{
-  opacity: 100%;
+  opacity: 1;
   color: #060016;
   font-weight: bold;
 }

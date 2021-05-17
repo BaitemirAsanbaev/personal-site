@@ -1,0 +1,19 @@
+.about_info{
+  background-color: #060016;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 50px;
+  transition: color .5s;
+}
+.about_info:hover{
+  color: rgb(143, 256, 199);
+}
+.about_info h2{
+  margin: 20px 0px 10px 0px;
+}
+.about_info p{
+  font-size: 20px;
+  line-height: 1.8;
+}

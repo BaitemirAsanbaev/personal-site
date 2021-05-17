@@ -11,26 +11,26 @@ const Project = ({match}) => {
       case "music-maker":
         project_name = "Music maker"
         links.push(<ul>
-          <li><a href='https://github.com/BaitemirAsanbaev/music-maker' target='_blank'>GitHub repository</a></li>
-          <li><a href='https://baitemir-asanbaev.netlify.app/' target='_blank'>Netlify link</a></li>
+          <li><a href='https://github.com/BaitemirAsanbaev/music-maker' rel="noreferrer" target='_blank'>GitHub repository</a></li>
+          <li><a href='https://baitemir-asanbaev.netlify.app/' rel="noreferrer" target='_blank'>Netlify link</a></li>
         </ul>)
-        screenshot.push(<img className={classes.screenshot} src={mus_img}/>)
+        screenshot.push(<img alt="s" className={classes.screenshot} src={mus_img}/>)
         break;
       case "personal-site":  
         project_name = "Personal site"
         links.push(<ul>
-          <li><a href='https://github.com/BaitemirAsanbaev/personal-site' target='_blank'>GitHub repository</a></li>
-          <li><a href='https://baitemir.netlify.app/' target='_blank'>Netlify link</a></li>
+          <li><a href='https://github.com/BaitemirAsanbaev/personal-site' rel="noreferrer" target='_blank'>GitHub repository</a></li>
+          <li><a href='https://baitemir.netlify.app/' rel="noreferrer" target='_blank'>Netlify link</a></li>
         </ul>)
-        screenshot.push(<img className={classes.screenshot} src={mus_img}/>)
+        screenshot.push(<img alt="s" className={classes.screenshot} src={mus_img}/>)
         break;
       case "kanye-western":  
         project_name = "Kanye Western"
         links.push(<ul>
-          <li><a href='https://github.com/BaitemirAsanbaev/kanye-western' target='_blank'>GitHub repository</a></li>
-          <li><a href='https://kanye-western.netlify.app/' target='_blank'>Netlify link</a></li>
+          <li><a href='https://github.com/BaitemirAsanbaev/kanye-western' rel="noreferrer" target='_blank'>GitHub repository</a></li>
+          <li><a href='https://kanye-western.netlify.app/' rel="noreferrer" target='_blank'>Netlify link</a></li>
         </ul>)
-        screenshot.push(<img className={classes.screenshot} src={mus_img}/>)
+        screenshot.push(<img alt="s" className={classes.screenshot} src={mus_img}/>)
         break;
       
       default:

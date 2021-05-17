@@ -1,0 +1,33 @@
+.icon{
+  width: 50px;
+}
+.Contacts a{
+  color: #000;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  margin: 0 auto;
+}
+.Contacts img, .Contacts span{  
+  transition: transform .5s, box-shadow .5s;
+  border-radius: 100%;
+}
+.Contacts ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.Contacts ul li{
+  margin: 20px 0px;
+}
+.Contacts a:hover>img{
+  transform: scale(1.2) translateX(-10px);
+  box-shadow: 0 0 25px 10px rgb(143, 256, 199);
+}
+.Contacts a:hover>span{
+  transform: scale(.8) translateX(10px);
+}

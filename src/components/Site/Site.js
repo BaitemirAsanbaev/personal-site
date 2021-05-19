@@ -6,7 +6,9 @@ import Projects from "./Projects/Projects";
 import classes from "./Site.module.css";
 
 const Site = () => {
+  
   return ( <div className={classes.Site}>
+    
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/projects" component={Projects}/>

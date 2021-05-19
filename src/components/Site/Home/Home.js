@@ -1,7 +1,35 @@
-import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
+import ProjectItem from "../Projects/ProjectsList/ProjectItem/ProjectItem";
 import classes from "./Home.module.css";
 
 const Home = () => {
+
+  const projects = useSelector(state => state);
+  const output = [];
+  for (const project of projects) {
+    let label = "";
+    let type = "";
+    switch (project) {
+      case "music-maker":
+        label = "Music maker"
+        type = "ReactJS"
+        break;
+      case "personal-site":
+        label = "Personal site"
+        type = "Design/Layout"
+        break;
+      case "kanye-western":
+        label = "Kanye western"
+        type = "JavaScript"
+        break;
+
+      default:
+        break;
+    }
+    output.push(<ProjectItem url={project} label={label} type={type} />)
+  }
+
+
   return (<div className={classes.Home}>
     <div className={classes.home_about}>
       <div className={classes.img}></div>
@@ -12,8 +40,8 @@ const Home = () => {
       </div>
     </div>
     <div className={classes.best_projects}>
-      <Link to={"/projects/music-maker"}>Music-maker</Link>
-      <Link to={"/projects/personal-site"}>Personal site</Link>
+      <h2>Top projects</h2>
+      {output}
     </div>
   </div>);
 }

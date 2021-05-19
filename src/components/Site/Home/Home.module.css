@@ -25,3 +25,9 @@
   line-height: 1.5;
   font-size: 18px;
 }
+
+.top_projects>div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

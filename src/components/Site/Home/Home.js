@@ -39,9 +39,11 @@ const Home = () => {
         </p>
       </div>
     </div>
-    <div className={classes.best_projects}>
+    <div className={classes.top_projects}>
       <h2>Top projects</h2>
-      {output}
+      <div>
+        {output}
+      </div>
     </div>
   </div>);
 }

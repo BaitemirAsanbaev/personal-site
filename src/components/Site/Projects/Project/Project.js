@@ -1,6 +1,7 @@
 import classes from "./Project.module.css";
 import mus_img from "../../../../images/music-maker.png";
 import kw_img from "../../../../images/kanye-western.png";
+import ps_img from "../../../../images/personal-site.png";
 
 const Project = ({match}) => {
 
@@ -22,7 +23,7 @@ const Project = ({match}) => {
         links.push(<ul className={classes.links}>
           <li><a href='https://github.com/BaitemirAsanbaev/personal-site' rel="noreferrer" target='_blank'>GitHub repository</a></li>
         </ul>)
-        screenshot.push(<a href='https://baitemir.netlify.app/' rel="noreferrer" target='_blank'><img alt="s" className={classes.screenshot} src={mus_img}/></a>)
+        screenshot.push(<a href='https://baitemir.netlify.app/' rel="noreferrer" target='_blank'><img alt="s" className={classes.screenshot} src={ps_img}/></a>)
         break;
       case "kanye-western":  
         project_name = "Kanye Western"

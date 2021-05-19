@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Drawer from "./Drawer/Drawer";
+import Footer from "./Footer/Footer";
 import classes from "./Layout.module.css";
 import Toolbar from "./Toolbar/Toolbar";
 
@@ -13,6 +14,7 @@ const Layout = ({children}) => {
     <main>
       {children}
     </main>
+    <Footer/>
   </div> );
 }
  

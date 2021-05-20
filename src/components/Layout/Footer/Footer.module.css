@@ -1,5 +1,4 @@
 .Footer{
-  height: 200px;
   width: 100%;
   background-color: #060016;
   color: #fff;
@@ -9,4 +8,31 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.Footer form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Footer form label{
+  margin: 10px 0px 10px 0px
+}
+.Footer form button{
+  outline: none;
+  border: 2px  solid #fff;
+  color: #fff;
+  background-color: #060016;
+  border-radius: 10px;
+  padding: 10px;
+  transition: color .5s, border .5s;
+  margin-top: 20px;
+}
+
+.Footer form button:hover{
+  border: 2px  solid rgb(143, 256, 199);
+  color: rgb(143, 256, 199);
+}
+.Footer form button:focus{
+  border: 2px  solid #fff;
+  color: #fff;
 }

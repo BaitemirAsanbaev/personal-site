@@ -19,12 +19,17 @@ const Projects = ({ match }) => {
         break;
       case "personal-site":
         label = "Personal site"
-        type = "Design/Layout"
+        type = "ReactJS"
         break;
       case "kanye-western":
         label = "Kanye western"
         type = "JavaScript"
         break;
+      case "apple-copy":
+        label = "Apple copy"
+        type = "Design/Layout"
+        break;
+    
 
       default:
         break;

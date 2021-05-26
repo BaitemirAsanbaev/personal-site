@@ -21,6 +21,7 @@
   margin: 30px auto;
   line-height: 1.6;
   transition: color .5s;
+  text-align: center;
 }
 .info{
   margin-bottom: 100px;

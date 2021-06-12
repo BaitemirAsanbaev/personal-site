@@ -1,3 +1,7 @@
+.About{
+  max-width: 900px;
+  margin: 0 auto;
+}
 .about_info{
   background-color: #060016;
   color: #fff;

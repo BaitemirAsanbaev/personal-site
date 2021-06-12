@@ -27,6 +27,11 @@ const Home = () => {
         label = "Apple copy"
         type = "Design/Layout"
         break;
+      case "horizon":
+        label = "Horizon"
+        type = "Design/Layout"
+        break;
+    
   
       default:
         break;

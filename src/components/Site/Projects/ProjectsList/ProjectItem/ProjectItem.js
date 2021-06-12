@@ -17,13 +17,15 @@ const ProjectItem = ({url, label, type}) => {
     default:
       break;
   }
-
+  if(type === 'not top'){
+    return(null)
+  }else{
   return (<Link className={classes.link} to={`/projects/${url}`}>
     <div>
       <div className={classes.hov_label} style={{backgroundColor: color}}><span>{type}</span></div>
       <div className={classes.label}>{label}</div>
     </div>
-  </Link>);
+  </Link>);}
 }
  
 export default ProjectItem;

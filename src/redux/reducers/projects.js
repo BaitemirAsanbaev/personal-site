@@ -2,9 +2,10 @@ const initial_state = [
   "music-maker",
   "personal-site",
   "kanye-western",
+  "bottle",
   "apple-copy",
   "horizon",
-  "bottle"
+  "kin-no-mizusashi"
 ];
 
 const projects = (state = initial_state) => {

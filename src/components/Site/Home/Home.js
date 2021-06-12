@@ -15,10 +15,6 @@ const Home = () => {
         label = "Music maker"
         type = "ReactJS"
         break;
-      case "personal-site":
-        label = "Personal site"
-        type = "ReactJS"
-        break;
       case "kanye-western":
         label = "Kanye western"
         type = "JavaScript"
@@ -27,18 +23,10 @@ const Home = () => {
         label = "Apple copy"
         type = "Design/Layout"
         break;
-      case "horizon":
-        label = "Horizon"
-        type = "Design/Layout"
-        break;
-      case "bottle":
-        label = "Bottle game"
-        type = "JavaScript"
-        break;
-    
     
   
       default:
+        type = 'not top'
         break;
     }
     output.push(<ProjectItem url={project} label={label} type={type} />)

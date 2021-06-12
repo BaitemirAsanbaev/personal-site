@@ -37,6 +37,11 @@ const Projects = ({ match }) => {
         label = "Bottle game"
         type = "JavaScript"
         break;
+      case "kin-no-mizusashi":
+        label = "Kin no mizusashi"
+        type = "Design/Layout"
+        break;
+    
     
   
       default:

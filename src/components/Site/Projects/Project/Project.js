@@ -4,6 +4,7 @@ import kw_img from "../../../../images/kanye-western.png";
 import ps_img from "../../../../images/personal-site.png";
 import ap_img from "../../../../images/apple.png";
 import hrz_img from "../../../../images/horizon.png";
+import knm_img from "../../../../images/mizusashi.png";
 
 const Project = ({match}) => {
 
@@ -166,6 +167,31 @@ const Project = ({match}) => {
                 alt="s"
                 className={classes.screenshot}
                 src={hrz_img}/>
+              </a>);
+          break;
+        case "kin-no-mizusashi":  
+
+          project_name = "Kin no mizusashi"
+
+          project_description = "Medical herbs shop's site. I made it using HTML and CSS";
+
+          links.push(<ul className={classes.links}>
+            <li><a
+            href='https://github.com/BaitemirAsanbaev/kin-no-mizusashi'
+            rel="noreferrer"
+            target='_blank'>
+              GitHub repository
+            </a></li>
+          </ul>);
+
+          screenshot.push(<a
+            href='https://kin-no-mizusashi.netlify.app/'
+            rel="noreferrer"
+            target='_blank'>
+              <img
+                alt="s"
+                className={classes.screenshot}
+                src={knm_img}/>
               </a>);
           break;
 

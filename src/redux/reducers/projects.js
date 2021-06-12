@@ -3,7 +3,8 @@ const initial_state = [
   "personal-site",
   "kanye-western",
   "apple-copy",
-  "horizon"
+  "horizon",
+  "bottle"
 ];
 
 const projects = (state = initial_state) => {

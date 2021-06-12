@@ -143,6 +143,31 @@ const Project = ({match}) => {
             </a>);
         break;
       
+        case "bottle":  
+
+          project_name = "Bottle game"
+
+          project_description = "Bottle game. Game for a friends group (max 6 people). In this game person who get the bottle neck have to do the dare which appears on the screen. I used HTML CSS and JavaScript to made it.";
+
+          links.push(<ul className={classes.links}>
+            <li><a
+            href='https://github.com/BaitemirAsanbaev/bottle'
+            rel="noreferrer"
+            target='_blank'>
+              GitHub repository
+            </a></li>
+          </ul>);
+
+          screenshot.push(<a
+            href='https://game-bottle.netlify.app/'
+            rel="noreferrer"
+            target='_blank'>
+              <img
+                alt="s"
+                className={classes.screenshot}
+                src={hrz_img}/>
+              </a>);
+          break;
 
       default:
         break;

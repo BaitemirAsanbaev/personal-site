@@ -33,6 +33,10 @@ const Projects = ({ match }) => {
         label = "Horizon"
         type = "Design/Layout"
         break;
+      case "bottle":
+        label = "Bottle game"
+        type = "JavaScript"
+        break;
     
   
       default:

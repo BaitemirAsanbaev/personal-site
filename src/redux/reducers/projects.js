@@ -2,6 +2,7 @@ const initial_state = [
   "music-maker",
   "personal-site",
   "kanye-western",
+  "dragon",
   "bottle",
   "apple-copy",
   "horizon",

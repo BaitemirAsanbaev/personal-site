@@ -41,6 +41,10 @@ const Projects = ({ match }) => {
         label = "Kin no mizusashi"
         type = "Design/Layout"
         break;
+      case "dragon":
+        label = "Animated dragon"
+        type = "JavaScript"
+        break;
     
     
   

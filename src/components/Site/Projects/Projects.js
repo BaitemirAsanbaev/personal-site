@@ -28,7 +28,7 @@ const Projects = ({ match }) => {
       case "apple-copy":
         label = "Apple copy"
         type = "Design/Layout"
-        break;    
+        break;
       case "horizon":
         label = "Horizon"
         type = "Design/Layout"
@@ -45,9 +45,6 @@ const Projects = ({ match }) => {
         label = "Animated dragon"
         type = "JavaScript"
         break;
-    
-    
-  
       default:
         break;
     }
@@ -56,7 +53,7 @@ const Projects = ({ match }) => {
 
   return (<div className={classes.Projects}>
     <h1>Projects</h1>
-    { match.isExact
+    {match.isExact
       ? <ProjectsList output={output} />
       : <Route path='/projects/:id' component={Project} />}
   </div>);

@@ -23,8 +23,6 @@ const Home = () => {
         label = "Apple copy"
         type = "Design/Layout"
         break;
-    
-  
       default:
         type = 'not top'
         break;
@@ -36,12 +34,12 @@ const Home = () => {
   return (<div className={classes.Home}>
     <div className={classes.home_about}>
       <div className={classes.img}>
-        <img alt="ava" src={avatar}/>
+        <img alt="ava" src={avatar} />
       </div>
       <div className={classes.info}>
         <h1>Baitemir Asanbaev</h1>
         <p>
-          Hi there. I'm Baitemir and I'm web developer. I create great web-sites using ReactJS. Also I'm always ready to learn new technologies and fields. 
+          Hi there. I'm Baitemir and I'm web developer. I create great web-sites using ReactJS. Also I'm always ready to learn new technologies and fields.
         </p>
       </div>
     </div>

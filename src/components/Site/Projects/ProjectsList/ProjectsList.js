@@ -1,4 +1,3 @@
-
 import classes from "./ProjectsList.module.css";
 
 const ProjectsList = ({output}) => {

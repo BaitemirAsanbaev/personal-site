@@ -3,6 +3,7 @@ const initial_state = [
   "personal-site",
   "kanye-western",
   "dragon",
+  "fast-type",
   "bottle",
   "apple-copy",
   "horizon",

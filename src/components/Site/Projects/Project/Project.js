@@ -6,6 +6,7 @@ import ap_img from "../../../../images/apple.png";
 import hrz_img from "../../../../images/horizon.png";
 import knm_img from "../../../../images/mizusashi.png";
 import drgn_img from "../../../../images/dragon.png";
+import fst_img from "../../../../images/fast.png";
 
 const Project = ({ match }) => {
 
@@ -219,6 +220,32 @@ const Project = ({ match }) => {
           alt="s"
           className={classes.screenshot}
           src={drgn_img} />
+      </a>);
+      break;
+
+    case "fast-type":
+
+      project_name = "Fast typing test"
+
+      project_description = "With this app you can test your typing speed. I made it using HTML/CSS and JavaScript";
+
+      links.push(<ul className={classes.links}>
+        <li><a
+          href='https://github.com/BaitemirAsanbaev/fast-type'
+          rel="noreferrer"
+          target='_blank'>
+          GitHub repository
+        </a></li>
+      </ul>);
+
+      screenshot.push(<a
+        href='https://fast-type-test.netlify.app/'
+        rel="noreferrer"
+        target='_blank'>
+        <img
+          alt="s"
+          className={classes.screenshot}
+          src={fst_img} />
       </a>);
       break;
 

@@ -45,6 +45,10 @@ const Projects = ({ match }) => {
         label = "Animated dragon"
         type = "JavaScript"
         break;
+      case "fast-type":
+        label = "Fast typing test"
+        type = "JavaScript"
+        break;
       default:
         break;
     }
